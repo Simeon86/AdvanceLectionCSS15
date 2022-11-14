@@ -1,0 +1,22 @@
+
+.container > .row:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.container > .row > [class^="col-"] {
+    float: left;
+    box-sizing: border-box;
+    min-height: 1px;
+    position: relative;
+}
+
+.container > .row > [class^="col-"]:after {
+    content: '';
+    display: block;
+    clear: both;
+    
+}
+
+

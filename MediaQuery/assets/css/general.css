@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.shell {
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 50px;
+    /* background-color: red; */
+}
+
+header {
+    height: 450px;
+    background-color: #67d9e7;
+}
+
+#logo {
+    float: left;
+}
+
+#logo a {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    padding: 10px;
+}
+
+nav {
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    color: #fff;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color:#67d9e7;
+}
